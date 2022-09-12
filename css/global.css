@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Pokemon Hollow";
+    src: url("./fonts/Pokemon Hollow.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Pokemon Solid";
+    src: url("./fonts/Pokemon Solid.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: black;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3.125rem;
+}
+
+ .titulo img {
+    width: 2rem;
+    height: 2rem;
+ }
+
+h1 {
+    font-family: "Pokemon Solid" !important;
+    color: orange
+
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
